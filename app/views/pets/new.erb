@@ -11,7 +11,7 @@
 
   <% @pets.each do |pet| %>
   <input type="checkbox" name="pet[owner_ids][]" value="<%=owner.id%>" id= "<%=owner.id%>">
-  <%=pet.name%></input>
+  <%=owner.name%></input>
   <%end%>
 
   and/or, create a new pet:
